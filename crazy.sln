@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crazy", "crazy.csproj", "{945177B5-1C79-D43A-B4B8-B03CDD6CA01D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crazy.Editor", "crazy.Editor.csproj", "{D0CBD642-4636-E439-1BE9-62E11720C7ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{945177B5-1C79-D43A-B4B8-B03CDD6CA01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945177B5-1C79-D43A-B4B8-B03CDD6CA01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945177B5-1C79-D43A-B4B8-B03CDD6CA01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945177B5-1C79-D43A-B4B8-B03CDD6CA01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CBD642-4636-E439-1BE9-62E11720C7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CBD642-4636-E439-1BE9-62E11720C7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CBD642-4636-E439-1BE9-62E11720C7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CBD642-4636-E439-1BE9-62E11720C7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
