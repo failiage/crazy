@@ -185,6 +185,10 @@ public class MurdererBehaviour : MonoBehaviour
             Destroy(other.gameObject);
             isTarget = false;
         }
+        if (other.gameObject.layer == 11)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     //IEnumerator Move()

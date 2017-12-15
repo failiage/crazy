@@ -256,6 +256,7 @@
     <Compile Include="Assets\Script\AI\AIScripts\UnityContext.cs" />
     <Compile Include="Assets\Script\CameraTestBehaviour.cs" />
     <Compile Include="Assets\Script\Citizenrybehaviour.cs" />
+    <Compile Include="Assets\Script\DisasterBehaviour.cs" />
     <Compile Include="Assets\Script\HeroBehaviour.cs" />
     <Compile Include="Assets\Script\MurdererBehaviour.cs" />
   </ItemGroup>

@@ -170,5 +170,10 @@ public class HeroBehaviour : MonoBehaviour
             Timer = 0f;
             isTarget = false;
         }
+
+        if (other.gameObject.layer == 11)
+        {
+            Destroy(this.gameObject);
+        }
     }
 }

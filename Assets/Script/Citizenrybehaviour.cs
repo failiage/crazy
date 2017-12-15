@@ -65,4 +65,16 @@ public class Citizenrybehaviour : MonoBehaviour
             }
         }
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        // 8 시민
+        // 9 미친놈
+
+        // 충돌되면 그냥 지워.. 그리고 targets 초기화해.. 그리고 새로 돌아
+        if (other.gameObject.layer == 11)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }
